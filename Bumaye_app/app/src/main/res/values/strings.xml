@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">Bumaye App</string>
+    <!-- 主要界面字符串 - Chaînes interface principale -->
+    <string name="main_title">Maison BUMAYE</string>
+    <string name="client_management">Gestion des Clients</string>
+    <string name="add_client">Ajouter un Client</string>
+    <string name="edit_client">Modifier Client</string>
+    <string name="client_details">Détails du Client</string>
+    <string name="search_placeholder">Rechercher par nom ou téléphone</string>
+
+    <!-- 表单字段 - Champs de formulaire -->
+    <string name="required_field">Champ obligatoire</string>
+    <string name="name">Nom</string>
+    <string name="first_names">Prénoms</string>
+    <string name="phone_number">Numéro de téléphone</string>
+    <string name="order_date">Date de commande</string>
+    <string name="delivery_date">Date de livraison</string>
+    <string name="total_amount">Somme totale</string>
+    <string name="advance_payment">Avance</string>
+    <string name="remaining_amount">Reste à payer</string>
+
+    <!-- 测量字段 - Champs de mesures -->
+    <string name="shoulder">Épaule</string>
+    <string name="chest">Poitrine</string>
+    <string name="waist_length">Longueur taille</string>
+    <string name="belly_tour">Tour ventrale</string>
+    <string name="hip">Hanche</string>
+    <string name="bodice_length">Longueur corsage</string>
+    <string name="belt">Ceinture</string>
+    <string name="skirt_length">Longueur jupe</string>
+    <string name="dress_length">Longueur robe</string>
+    <string name="sleeve_length">Longueur manche</string>
+    <string name="sleeve_size">Taille manche</string>
+    <string name="trouser_length">Longueur pantalon</string>
+    <string name="short_dress_length">Longueur robe courte</string>
+    <string name="thigh_tour">Tour de cuisse</string>
+    <string name="knee_length">Longueur de genoux</string>
+    <string name="knee_tour">Tour de genoux</string>
+    <string name="bottom">Bas</string>
+    <string name="other_measurements">Autres mesures</string>
+
+    <!-- 按钮和动作 - Boutons et actions -->
+    <string name="save">Sauvegarder</string>
+    <string name="edit">Modifier</string>
+    <string name="delete">Supprimer</string>
+    <string name="back">Retour</string>
+    <string name="cancel">Annuler</string>
+    <string name="confirm">Confirmer</string>
+
+    <!-- 消息和验证 - Messages et validation -->
+    <string name="invalid_phone">Numéro de téléphone invalide (8-12 chiffres)</string>
+    <string name="invalid_date">Format de date invalide (JJ/MM/AAAA)</string>
+    <string name="invalid_date_order">La date de livraison doit être >= à la date de commande</string>
+    <string name="invalid_amount">Montant invalide</string>
+    <string name="insufficient_advance">L\'avance ne peut pas être supérieure au total</string>
+    <string name="client_saved">Client sauvegardé avec succès</string>
+    <string name="client_updated">Client mis à jour avec succès</string>
+    <string name="client_deleted">Client supprimé</string>
+    <string name="no_clients">Aucun client enregistré</string>
+    <string name="client_not_found">Client non trouvé</string>
+
+    <!-- 中文字符串 - Chaînes chinoises -->
+    <string name="chinese_system_title">客户管理系统</string>
+    <string name="chinese_no_data">暂无客户数据</string>
+    <string name="chinese_phone">电话</string>
+    <string name="chinese_order_date">命令日期</string>
+    <string name="chinese_delivery_date">交货日期</string>
+    <string name="chinese_payment_status">付款状态</string>
+    <string name="chinese_remaining">剩余金额</string>
+    <string name="chinese_measurements">身体测量</string>
+    <string name="chinese_upper_body">上半身</string>
+    <string name="chinese_lower_body">下半身</string>
+    <string name="chinese_clothing_sizes">服装尺寸</string>
+    <string name="chinese_other_measurements">其他测量</string>
+    <string name="chinese_not_set">未设置</string>
+    <string name="chinese_modify_info">修改客户信息</string>
+    <string name="chinese_details_info">详细信息</string>
+    <string name="chinese_personal_info">个人信息</string>
+    <string name="chinese_size_measurements">尺寸测量</string>
+    <string name="chinese_order_tracking">订单跟踪</string>
+    <string name="chinese_payment_info">付款信息</string>
+    <string name="chinese_update_info">更新客户信息</string>
+    <string name="chinese_save_client">保存客户</string>
+    <string name="chinese_client_not_found">找不到客户信息</string>
+    <string name="chinese_delete_confirm">您确定要删除客户</string>
+    <string name="chinese_invalid_input">无效的输入数据</string>
+</resources>
