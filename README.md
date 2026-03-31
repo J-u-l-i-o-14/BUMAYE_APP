@@ -1,41 +1,41 @@
 # Bumaye App - Application de Gestion des Mesures Clients
 
-## 📱 Description du Projet
+##  Description du Projet
 
 L'application **Bumaye App** est une solution mobile développée pour la maison de haute couture "Maison BUMAYE" afin de faciliter la gestion des mesures de leurs clients. Cette application Android permet la prise de mesures, l'enregistrement, la consultation, ainsi que la modification et la suppression des fiches clients.
 
-## 🎯 Fonctionnalités Principales
+##  Fonctionnalités Principales
 
-- ✅ **Ajouter un nouveau client** avec toutes ses mesures corporelles
-- ✅ **Afficher la liste des clients** enregistrés avec informations essentielles
-- ✅ **Consulter les détails complets** d'un client sélectionné
-- ✅ **Modifier les informations** d'un client existant
-- ✅ **Supprimer un client** de la liste (avec confirmation)
-- ✅ **Recherche par nom ou numéro** de téléphone
-- ✅ **Validation des données** en temps réel
-- ✅ **Calcul automatique** du reste à payer
-- ✅ **Interface multilingue** (Français/Chinois)
+-  **Ajouter un nouveau client** avec toutes ses mesures corporelles
+-  **Afficher la liste des clients** enregistrés avec informations essentielles
+-  **Consulter les détails complets** d'un client sélectionné
+-  **Modifier les informations** d'un client existant
+-  **Supprimer un client** de la liste (avec confirmation)
+-  **Recherche par nom ou numéro** de téléphone
+-  **Validation des données** en temps réel
+-  **Calcul automatique** du reste à payer
+-  **Interface multilingue** (Français/Chinois)
 
 # Bumaye App - Application de Gestion des Mesures Clients (100% Jetpack Compose)
 
-## 📱 Description du Projet
+##  Description du Projet
 
 L'application **Bumaye App** est une solution mobile développée pour la maison de haute couture "Maison BUMAYE" afin de faciliter la gestion des mesures de leurs clients. Cette application Android utilise **exclusivement Jetpack Compose** - aucun XML n'est utilisé pour l'interface utilisateur.
 
-## 🎯 Fonctionnalités Principales
+##  Fonctionnalités Principales
 
-- ✅ **Ajouter un nouveau client** avec toutes ses mesures corporelles
-- ✅ **Afficher la liste des clients** enregistrés avec informations essentielles
-- ✅ **Consulter les détails complets** d'un client sélectionné
-- ✅ **Modifier les informations** d'un client existant
-- ✅ **Supprimer un client** de la liste (avec confirmation)
-- ✅ **Recherche par nom ou numéro** de téléphone
-- ✅ **Validation des données** en temps réel
-- ✅ **Calcul automatique** du reste à payer
-- ✅ **Interface multilingue** (Français/Chinois)
-- ✅ **Design 100% Jetpack Compose** - Aucun XML utilisé
+-  **Ajouter un nouveau client** avec toutes ses mesures corporelles
+-  **Afficher la liste des clients** enregistrés avec informations essentielles
+-  **Consulter les détails complets** d'un client sélectionné
+-  **Modifier les informations** d'un client existant
+-  **Supprimer un client** de la liste (avec confirmation)
+-  **Recherche par nom ou numéro** de téléphone
+-  **Validation des données** en temps réel
+-  **Calcul automatique** du reste à payer
+-  **Interface multilingue** (Français/Chinois)
+-  **Design 100% Jetpack Compose** - Aucun XML utilisé
 
-## 🚀 Technologies Modernes Utilisées
+##  Technologies Modernes Utilisées
 
 ### Stack Technique 100% Compose
 - **Kotlin** - Langage de programmation principal
@@ -53,7 +53,7 @@ L'application **Bumaye App** est une solution mobile développée pour la maison
 - **Performance optimisée** - Recomposition intelligente
 - **Type Safety** - Vérification des types à la compilation
 
-## 📋 Champs de Saisie
+##  Champs de Saisie
 
 ### Informations Personnelles
 - **Nom et prénoms** *(obligatoire)*
@@ -76,7 +76,7 @@ L'application **Bumaye App** est une solution mobile développée pour la maison
 - **Avance** *(obligatoire, montant positif)*
 - **Reste** *(calculé automatiquement)*
 
-## 🔒 Validations Implémentées (100% Compose)
+##  Validations Implémentées (100% Compose)
 
 1. **Nom et prénoms** : Non vide, minimum 2 caractères
 2. **Numéro de téléphone** : Format numérique 8-12 chiffres
@@ -85,7 +85,7 @@ L'application **Bumaye App** est une solution mobile développée pour la maison
 5. **Calcul automatique** : Reste = Somme totale - Avance
 6. **Validation en temps réel** avec `remember` et états dérivés
 
-## 🎨 Design 100% Jetpack Compose
+##  Design 100% Jetpack Compose
 
 ### Interface Utilisateur Moderne
 - **Material Design 3** implémenté entièrement en Compose
@@ -109,7 +109,7 @@ L'application **Bumaye App** est une solution mobile développée pour la maison
 - **Disposition flexible** avec `Row`, `Column`, `Box`
 - **Espacement cohérent** avec `Arrangement.spacedBy()`
 
-## 🌍 Internationalisation Compose
+##  Internationalisation Compose
 
 L'application intègre du **texte bilingue** directement dans les composants :
 - Labels des champs avec `Text()`
@@ -117,7 +117,7 @@ L'application intègre du **texte bilingue** directement dans les composants :
 - Titres et descriptions en `TopAppBar`
 - Messages de confirmation dans les `AlertDialog`
 
-## 📁 Structure du Projet 100% Compose
+##  Structure du Projet 100% Compose
 
 ```
 julio.Koffi.daklu.bumaye_app/
@@ -143,7 +143,7 @@ julio.Koffi.daklu.bumaye_app/
 └── MainActivity.kt              # ComponentActivity avec setContent
 ```
 
-## 🔧 Composants Compose Utilisés
+##  Composants Compose Utilisés
 
 ### Core Compose
 - **`@Composable`** - Toutes les fonctions UI
@@ -168,7 +168,7 @@ julio.Koffi.daklu.bumaye_app/
 - **`Spacer`** - Espacement
 - **`Surface`** - Surfaces avec forme et couleur
 
-## 🚀 Installation et Utilisation
+##  Installation et Utilisation
 
 ### Prérequis
 - Android Studio Giraffe ou plus récent
@@ -203,7 +203,7 @@ composeOptions {
 4. **Icons TopAppBar** - Actions Modifier/Supprimer
 5. **TextField recherche** - Filtrage temps réel
 
-## 💾 Gestion des Données Compose
+##  Gestion des Données Compose
 
 ```kotlin
 // Repository avec MutableStateList pour Compose
@@ -223,7 +223,7 @@ fun AccueilScreen() {
 }
 ```
 
-## 🧪 Avantages du 100% Compose
+##  Avantages du 100% Compose
 
 ### Performance
 - **Recomposition intelligente** - Seuls les composants modifiés se redessinent
@@ -241,7 +241,7 @@ fun AccueilScreen() {
 - **Logique centralisée** - État et UI au même endroit
 - **Refactoring facile** - IDE support complet pour Compose
 
-## 📸 Captures d'Écran à Fournir
+##  Captures d'Écran à Fournir
 
 1. **AccueilScreen** - Liste avec ClientCards
 2. **ClientForm** - Formulaire avec ElevatedCards
@@ -250,7 +250,7 @@ fun AccueilScreen() {
 5. **AlertDialog** - Confirmations stylées
 6. **États d'erreur** - Validation temps réel
 
-## 💡 Fonctionnalités Bonus Compose
+##  Fonctionnalités Bonus Compose
 
 ### Déjà Implémentées
 - **Recherche temps réel** avec `derivedStateOf`
@@ -276,20 +276,20 @@ implementation("io.github.vanpra.compose-material-dialogs:datetime:$dialog_versi
 Le code respecte les **meilleures pratiques Compose** :
 
 ```kotlin
-// ✅ État hissé (Lifted State)
+//  État hissé (Lifted State)
 @Composable
 fun ClientForm(onSaveClient: (Client) -> Unit) {
     var _v_nom by remember { mutableStateOf("") }
     // État local géré ici, callback pour communication
 }
 
-// ✅ Composants réutilisables
+//  Composants réutilisables
 @Composable 
 fun DetailRow(label: String, value: String) {
     // Composant simple, réutilisable, testable
 }
 
-// ✅ Side effects appropriés
+//  Side effects appropriés
 @Composable
 fun AccueilScreen() {
     val _v_clients = remember { 
@@ -298,23 +298,23 @@ fun AccueilScreen() {
 }
 ```
 
-## 📄 Résumé Technique
+##  Résumé Technique
 
-**✅ 100% Jetpack Compose** - Aucun XML utilisé  
-**✅ Material Design 3** - Thème moderne  
-**✅ Navigation Compose** - Pas de fragments  
-**✅ États réactifs** - `remember`, `mutableStateOf`  
-**✅ Validation temps réel** - UX fluide  
-**✅ Code type-safe** - Kotlin + Compose  
-**✅ Architecture claire** - MVVM simplifié
+** 100% Jetpack Compose** - Aucun XML utilisé  
+** Material Design 3** - Thème moderne  
+** Navigation Compose** - Pas de fragments  
+** États réactifs** - `remember`, `mutableStateOf`  
+** Validation temps réel** - UX fluide  
+** Code type-safe** - Kotlin + Compose  
+** Architecture claire** - MVVM simplifié
 
 ---
 
-*Développé en 100% Jetpack Compose pour Maison BUMAYE - 高级定制时装屋*
+*Développé en 100% Jetpack Compose pour Maison BUMAYE *
 
 **Note importante :** Cette version utilise exclusivement Jetpack Compose. Aucun fichier XML n'est utilisé pour l'interface utilisateur, respectant ainsi votre demande spécifique.
 
-## 📋 Champs de Saisie
+##  Champs de Saisie
 
 ### Informations Personnelles
 - **Nom et prénoms** *(obligatoire)*
@@ -337,7 +337,7 @@ fun AccueilScreen() {
 - **Avance** *(obligatoire, montant positif)*
 - **Reste** *(calculé automatiquement)*
 
-## 🔒 Validations Implémentées
+## Validations Implémentées
 
 1. **Nom et prénoms** : Non vide, minimum 2 caractères
 2. **Numéro de téléphone** : Format numérique 8-12 chiffres
@@ -345,7 +345,7 @@ fun AccueilScreen() {
 4. **Montants** : Valeurs numériques positives
 5. **Calcul automatique** : Reste = Somme totale - Avance
 
-## 🎨 Choix de Design
+##  Choix de Design
 
 ### Interface Utilisateur
 - **Material Design 3** pour une expérience moderne et cohérente
@@ -366,7 +366,7 @@ fun AccueilScreen() {
 - **Scrolling vertical** pour les longs formulaires
 - **Disposition en colonnes** pour optimiser l'espace
 
-## 🌍 Internationalisation
+##  Internationalisation
 
 L'application intègre du **texte bilingue** (Français/Chinois) dans :
 - Les labels des champs de formulaire
@@ -376,7 +376,7 @@ L'application intègre du **texte bilingue** (Français/Chinois) dans :
 
 Cette approche respecte les exigences du projet tout en améliorant l'accessibilité.
 
-## 📁 Structure du Projet
+##  Structure du Projet
 
 ```
 votre.prenom.nom.bumaye_app/
@@ -402,7 +402,7 @@ votre.prenom.nom.bumaye_app/
 └── MainActivity.kt               # Activité principale
 ```
 
-## 🚀 Installation et Utilisation
+##  Installation et Utilisation
 
 ### Prérequis
 - Android Studio Arctic Fox ou plus récent
@@ -424,14 +424,14 @@ votre.prenom.nom.bumaye_app/
 5. **Icône poubelle** : Supprimer un client
 6. **Barre de recherche** : Rechercher par nom ou téléphone
 
-## 💾 Gestion des Données
+##  Gestion des Données
 
 Les données sont **stockées en mémoire** pendant l'exécution de l'application :
 - Utilisation d'une `MutableStateList` pour la réactivité
 - Persistance uniquement durant la session
 - Réinitialisation à chaque redémarrage de l'app
 
-## 🧪 Tests et Validation
+##  Tests et Validation
 
 ### Tests de Validation
 - Validation des champs obligatoires
@@ -444,7 +444,7 @@ Les données sont **stockées en mémoire** pendant l'exécution de l'applicatio
 - Affichage correct des données
 - Responsive design sur différentes tailles d'écran
 
-## 📸 Captures d'Écran à Fournir
+##  Captures d'Écran à Fournir
 
 1. **Écran d'accueil** avec liste des clients
 2. **Formulaire d'ajout** d'un nouveau client
@@ -453,7 +453,7 @@ Les données sont **stockées en mémoire** pendant l'exécution de l'applicatio
 5. **Fonction de recherche** en action
 6. **Messages de validation** d'erreur
 
-## 👨‍💻 Développement
+##  Développement
 
 ### Bonnes Pratiques Respectées
 - **Séparation des responsabilités** (UI, logique, données)
